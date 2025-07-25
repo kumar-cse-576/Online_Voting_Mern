@@ -57,22 +57,22 @@ function Dashboard() {
       `}</style>
 
       <div className="dashboard-container">
-        <div className="dashboard-title">🛠️ Admin Panel</div>
+        <div className="dashboard-title"> Admin Panel</div>
 
         <button className="dashboard-btn" onClick={() => navigate('/create')}>
-          ➕ Create New Election
+           Create New Election
         </button>
 
         <button className="dashboard-btn" onClick={() => navigate('/results')}>
-          📊 View Election Results
+          View Election Results
         </button>
 
         <button className="dashboard-btn" onClick={() => navigate('/delete')}>
-          🗑️ Manage / Delete Elections
+           Manage / Delete Elections
         </button>
 
         <button className="dashboard-btn logout-btn" onClick={logout}>
-          🚪 Logout
+           Logout
         </button>
       </div>
     </>
